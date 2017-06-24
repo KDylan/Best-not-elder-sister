@@ -1,0 +1,965 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E0D9F651EA8CFBE00CF2841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0D9F641EA8CFBE00CF2841 /* Assets.xcassets */; };
+		7E0D9F731EA8CFBF00CF2841 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0D9F721EA8CFBF00CF2841 /* _____Tests.m */; };
+		7E0D9F7E1EA8CFBF00CF2841 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0D9F7D1EA8CFBF00CF2841 /* _____UITests.m */; };
+		7E4343AB1EBCAB2100543887 /* EdgeProcress.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4343AA1EBCAB2100543887 /* EdgeProcress.m */; };
+		7E4343AF1EBDCF6600543887 /* EdgePublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4343AD1EBDCF6600543887 /* EdgePublishViewController.m */; };
+		7E4343B01EBDCF6600543887 /* EdgePublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E4343AE1EBDCF6600543887 /* EdgePublishViewController.xib */; };
+		7E4343B31EBDD60700543887 /* EdgePublishButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4343B21EBDD60700543887 /* EdgePublishButton.m */; };
+		7E4A25DC1EBF039A00BA6CAC /* EdgeVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4A25DB1EBF039A00BA6CAC /* EdgeVoiceView.m */; };
+		7E4A25DE1EBF043A00BA6CAC /* EdgeVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E4A25DD1EBF043A00BA6CAC /* EdgeVoiceView.xib */; };
+		7E4A25E11EBF298000BA6CAC /* EdgeVedioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4A25E01EBF298000BA6CAC /* EdgeVedioView.m */; };
+		7E4A25E31EBF299300BA6CAC /* EdgeVedioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E4A25E21EBF299300BA6CAC /* EdgeVedioView.xib */; };
+		7E6122F31EAB24420046CE67 /* EdgeFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6122CB1EAB24420046CE67 /* EdgeFriendsViewController.m */; };
+		7E6122F41EAB24420046CE67 /* EdgeMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6122D11EAB24420046CE67 /* EdgeMeViewController.m */; };
+		7E6122F51EAB24420046CE67 /* EdgeNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6122D71EAB24420046CE67 /* EdgeNewViewController.m */; };
+		7E6122F61EAB24420046CE67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6122DC1EAB24420046CE67 /* AppDelegate.m */; };
+		7E6122F71EAB24420046CE67 /* UIBarButtonItem+EdgeExention.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6122DF1EAB24420046CE67 /* UIBarButtonItem+EdgeExention.m */; };
+		7E6122F81EAB24420046CE67 /* UIImage+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6122E11EAB24420046CE67 /* UIImage+UIImage.m */; };
+		7E6122F91EAB24420046CE67 /* UIView+EdgeExpention.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6122E31EAB24420046CE67 /* UIView+EdgeExpention.m */; };
+		7E6122FA1EAB24420046CE67 /* EdgeNavigateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6122E61EAB24420046CE67 /* EdgeNavigateViewController.m */; };
+		7E6122FB1EAB24420046CE67 /* EdgeRootTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6122E81EAB24420046CE67 /* EdgeRootTabBarViewController.m */; };
+		7E6122FC1EAB24420046CE67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6122E91EAB24420046CE67 /* main.m */; };
+		7E6122FD1EAB24420046CE67 /* EdgeTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6122ED1EAB24420046CE67 /* EdgeTabBar.m */; };
+		7E6123001EAB484F0046CE67 /* EdgePushGuildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6122FF1EAB484F0046CE67 /* EdgePushGuildView.m */; };
+		7E6123021EAB48650046CE67 /* EdgePushGuildView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6123011EAB48650046CE67 /* EdgePushGuildView.xib */; };
+		7E61230B1EAB853B0046CE67 /* EdgeEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6123061EAB853B0046CE67 /* EdgeEssenceViewController.m */; };
+		7EA4A59E1EB9A6F7008C11FD /* EdgeTopicsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA4A59C1EB9A6F7008C11FD /* EdgeTopicsCell.m */; };
+		7EA4A59F1EB9A6F7008C11FD /* EdgeTopicsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA4A59D1EB9A6F7008C11FD /* EdgeTopicsCell.xib */; };
+		7EA4A5A21EB9D9D0008C11FD /* NSDate+EdgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA4A5A11EB9D9D0008C11FD /* NSDate+EdgeExtention.m */; };
+		7EA4A5A51EBA0C89008C11FD /* EdgeTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA4A5A41EBA0C89008C11FD /* EdgeTopicViewController.m */; };
+		7EA4A5AB1EBB1219008C11FD /* EdgeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA4A5AA1EBB1219008C11FD /* EdgeConst.m */; };
+		7EA4A5AE1EBB3088008C11FD /* EdgePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA4A5AD1EBB3088008C11FD /* EdgePicture.m */; };
+		7EA4A5B01EBB30A3008C11FD /* EdgePicture.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA4A5AF1EBB30A3008C11FD /* EdgePicture.xib */; };
+		7EC4AAFB1EBC7CC000ECC30E /* EdgeShowPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4AAF91EBC7CC000ECC30E /* EdgeShowPictureController.m */; };
+		7EC4AAFC1EBC7CC000ECC30E /* EdgeShowPictureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC4AAFA1EBC7CC000ECC30E /* EdgeShowPictureController.xib */; };
+		7EE8706F1EB1DA1E00291561 /* EdgeTopics.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8706E1EB1DA1E00291561 /* EdgeTopics.m */; };
+		ECC4D80CE5F4992B2477F361 /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 569BFBCAE0EDE58A98A252BC /* libPods-百思不得姐.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E0D9F6F1EA8CFBF00CF2841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E0D9F4D1EA8CFBC00CF2841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E0D9F541EA8CFBC00CF2841;
+			remoteInfo = "百思不得姐";
+		};
+		7E0D9F7A1EA8CFBF00CF2841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E0D9F4D1EA8CFBC00CF2841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E0D9F541EA8CFBC00CF2841;
+			remoteInfo = "百思不得姐";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		569BFBCAE0EDE58A98A252BC /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0D9F551EA8CFBE00CF2841 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0D9F641EA8CFBE00CF2841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E0D9F691EA8CFBE00CF2841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0D9F6E1EA8CFBE00CF2841 /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0D9F721EA8CFBF00CF2841 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		7E0D9F741EA8CFBF00CF2841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0D9F791EA8CFBF00CF2841 /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0D9F7D1EA8CFBF00CF2841 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		7E0D9F7F1EA8CFBF00CF2841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E4343A91EBCAB2100543887 /* EdgeProcress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeProcress.h; sourceTree = "<group>"; };
+		7E4343AA1EBCAB2100543887 /* EdgeProcress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeProcress.m; sourceTree = "<group>"; };
+		7E4343AC1EBDCF6600543887 /* EdgePublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgePublishViewController.h; sourceTree = "<group>"; };
+		7E4343AD1EBDCF6600543887 /* EdgePublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgePublishViewController.m; sourceTree = "<group>"; };
+		7E4343AE1EBDCF6600543887 /* EdgePublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EdgePublishViewController.xib; sourceTree = "<group>"; };
+		7E4343B11EBDD60700543887 /* EdgePublishButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EdgePublishButton.h; path = "../../Other-其它/View/EdgePublishButton.h"; sourceTree = "<group>"; };
+		7E4343B21EBDD60700543887 /* EdgePublishButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EdgePublishButton.m; path = "../../Other-其它/View/EdgePublishButton.m"; sourceTree = "<group>"; };
+		7E4A25DA1EBF039A00BA6CAC /* EdgeVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeVoiceView.h; sourceTree = "<group>"; };
+		7E4A25DB1EBF039A00BA6CAC /* EdgeVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeVoiceView.m; sourceTree = "<group>"; };
+		7E4A25DD1EBF043A00BA6CAC /* EdgeVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EdgeVoiceView.xib; sourceTree = "<group>"; };
+		7E4A25DF1EBF298000BA6CAC /* EdgeVedioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeVedioView.h; sourceTree = "<group>"; };
+		7E4A25E01EBF298000BA6CAC /* EdgeVedioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeVedioView.m; sourceTree = "<group>"; };
+		7E4A25E21EBF299300BA6CAC /* EdgeVedioView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EdgeVedioView.xib; sourceTree = "<group>"; };
+		7E6122CA1EAB24420046CE67 /* EdgeFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeFriendsViewController.h; sourceTree = "<group>"; };
+		7E6122CB1EAB24420046CE67 /* EdgeFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeFriendsViewController.m; sourceTree = "<group>"; };
+		7E6122D01EAB24420046CE67 /* EdgeMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeMeViewController.h; sourceTree = "<group>"; };
+		7E6122D11EAB24420046CE67 /* EdgeMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeMeViewController.m; sourceTree = "<group>"; };
+		7E6122D61EAB24420046CE67 /* EdgeNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeNewViewController.h; sourceTree = "<group>"; };
+		7E6122D71EAB24420046CE67 /* EdgeNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeNewViewController.m; sourceTree = "<group>"; };
+		7E6122DB1EAB24420046CE67 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E6122DC1EAB24420046CE67 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E6122DE1EAB24420046CE67 /* UIBarButtonItem+EdgeExention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+EdgeExention.h"; sourceTree = "<group>"; };
+		7E6122DF1EAB24420046CE67 /* UIBarButtonItem+EdgeExention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+EdgeExention.m"; sourceTree = "<group>"; };
+		7E6122E01EAB24420046CE67 /* UIImage+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImage.h"; sourceTree = "<group>"; };
+		7E6122E11EAB24420046CE67 /* UIImage+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIImage.m"; sourceTree = "<group>"; };
+		7E6122E21EAB24420046CE67 /* UIView+EdgeExpention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EdgeExpention.h"; sourceTree = "<group>"; };
+		7E6122E31EAB24420046CE67 /* UIView+EdgeExpention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EdgeExpention.m"; sourceTree = "<group>"; };
+		7E6122E51EAB24420046CE67 /* EdgeNavigateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeNavigateViewController.h; sourceTree = "<group>"; };
+		7E6122E61EAB24420046CE67 /* EdgeNavigateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeNavigateViewController.m; sourceTree = "<group>"; };
+		7E6122E71EAB24420046CE67 /* EdgeRootTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeRootTabBarViewController.h; sourceTree = "<group>"; };
+		7E6122E81EAB24420046CE67 /* EdgeRootTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeRootTabBarViewController.m; sourceTree = "<group>"; };
+		7E6122E91EAB24420046CE67 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E6122EA1EAB24420046CE67 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7E6122EC1EAB24420046CE67 /* EdgeTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeTabBar.h; sourceTree = "<group>"; };
+		7E6122ED1EAB24420046CE67 /* EdgeTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeTabBar.m; sourceTree = "<group>"; };
+		7E6122FE1EAB484F0046CE67 /* EdgePushGuildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgePushGuildView.h; sourceTree = "<group>"; };
+		7E6122FF1EAB484F0046CE67 /* EdgePushGuildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgePushGuildView.m; sourceTree = "<group>"; };
+		7E6123011EAB48650046CE67 /* EdgePushGuildView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EdgePushGuildView.xib; sourceTree = "<group>"; };
+		7E6123051EAB853B0046CE67 /* EdgeEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeEssenceViewController.h; sourceTree = "<group>"; };
+		7E6123061EAB853B0046CE67 /* EdgeEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeEssenceViewController.m; sourceTree = "<group>"; };
+		7EA4A59B1EB9A6F7008C11FD /* EdgeTopicsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeTopicsCell.h; sourceTree = "<group>"; };
+		7EA4A59C1EB9A6F7008C11FD /* EdgeTopicsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeTopicsCell.m; sourceTree = "<group>"; };
+		7EA4A59D1EB9A6F7008C11FD /* EdgeTopicsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EdgeTopicsCell.xib; sourceTree = "<group>"; };
+		7EA4A5A01EB9D9D0008C11FD /* NSDate+EdgeExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+EdgeExtention.h"; sourceTree = "<group>"; };
+		7EA4A5A11EB9D9D0008C11FD /* NSDate+EdgeExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+EdgeExtention.m"; sourceTree = "<group>"; };
+		7EA4A5A31EBA0C89008C11FD /* EdgeTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EdgeTopicViewController.h; path = "百思不得姐/Classes/Essence-精华/Controller/EdgeTopicViewController.h"; sourceTree = SOURCE_ROOT; };
+		7EA4A5A41EBA0C89008C11FD /* EdgeTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EdgeTopicViewController.m; path = "百思不得姐/Classes/Essence-精华/Controller/EdgeTopicViewController.m"; sourceTree = SOURCE_ROOT; };
+		7EA4A5A91EBB1219008C11FD /* EdgeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeConst.h; sourceTree = "<group>"; };
+		7EA4A5AA1EBB1219008C11FD /* EdgeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeConst.m; sourceTree = "<group>"; };
+		7EA4A5AC1EBB3088008C11FD /* EdgePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgePicture.h; sourceTree = "<group>"; };
+		7EA4A5AD1EBB3088008C11FD /* EdgePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgePicture.m; sourceTree = "<group>"; };
+		7EA4A5AF1EBB30A3008C11FD /* EdgePicture.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EdgePicture.xib; sourceTree = "<group>"; };
+		7EC4AAF81EBC7CC000ECC30E /* EdgeShowPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeShowPictureController.h; sourceTree = "<group>"; };
+		7EC4AAF91EBC7CC000ECC30E /* EdgeShowPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeShowPictureController.m; sourceTree = "<group>"; };
+		7EC4AAFA1EBC7CC000ECC30E /* EdgeShowPictureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EdgeShowPictureController.xib; sourceTree = "<group>"; };
+		7EE8706D1EB1DA1E00291561 /* EdgeTopics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeTopics.h; sourceTree = "<group>"; };
+		7EE8706E1EB1DA1E00291561 /* EdgeTopics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeTopics.m; sourceTree = "<group>"; };
+		A3A9B8E380A1C6A52806C12B /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
+		E4B2DB6793D92060AC700BED /* libPods-百思不得姐Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E2674D074981E1224EF749 /* libPods-百思不得姐UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE597A6CF806CE4E0C9AEC8A /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E0D9F521EA8CFBC00CF2841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC4D80CE5F4992B2477F361 /* libPods-百思不得姐.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0D9F6B1EA8CFBE00CF2841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0D9F761EA8CFBF00CF2841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CA92235735ED673DDE65046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				569BFBCAE0EDE58A98A252BC /* libPods-百思不得姐.a */,
+				E4B2DB6793D92060AC700BED /* libPods-百思不得姐Tests.a */,
+				F5E2674D074981E1224EF749 /* libPods-百思不得姐UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E0D9F4C1EA8CFBC00CF2841 = {
+			isa = PBXGroup;
+			children = (
+				7E0D9F571EA8CFBE00CF2841 /* 百思不得姐 */,
+				7E0D9F711EA8CFBF00CF2841 /* 百思不得姐Tests */,
+				7E0D9F7C1EA8CFBF00CF2841 /* 百思不得姐UITests */,
+				7E0D9F561EA8CFBE00CF2841 /* Products */,
+				A4904BE1FB79B9D533B4083B /* Pods */,
+				6CA92235735ED673DDE65046 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E0D9F561EA8CFBE00CF2841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E0D9F551EA8CFBE00CF2841 /* 百思不得姐.app */,
+				7E0D9F6E1EA8CFBE00CF2841 /* 百思不得姐Tests.xctest */,
+				7E0D9F791EA8CFBF00CF2841 /* 百思不得姐UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E0D9F571EA8CFBE00CF2841 /* 百思不得姐 */ = {
+			isa = PBXGroup;
+			children = (
+				7E6122C11EAB24420046CE67 /* Classes */,
+				7E0D9F641EA8CFBE00CF2841 /* Assets.xcassets */,
+				7E0D9F691EA8CFBE00CF2841 /* Info.plist */,
+				7E0D9F581EA8CFBE00CF2841 /* Supporting Files */,
+			);
+			path = "百思不得姐";
+			sourceTree = "<group>";
+		};
+		7E0D9F581EA8CFBE00CF2841 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E0D9F711EA8CFBF00CF2841 /* 百思不得姐Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E0D9F721EA8CFBF00CF2841 /* _____Tests.m */,
+				7E0D9F741EA8CFBF00CF2841 /* Info.plist */,
+			);
+			path = "百思不得姐Tests";
+			sourceTree = "<group>";
+		};
+		7E0D9F7C1EA8CFBF00CF2841 /* 百思不得姐UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E0D9F7D1EA8CFBF00CF2841 /* _____UITests.m */,
+				7E0D9F7F1EA8CFBF00CF2841 /* Info.plist */,
+			);
+			path = "百思不得姐UITests";
+			sourceTree = "<group>";
+		};
+		7E6122C11EAB24420046CE67 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7E6122C21EAB24420046CE67 /* Essence-精华 */,
+				7E6122C81EAB24420046CE67 /* Friends-关注 */,
+				7E6122CE1EAB24420046CE67 /* Me-我的 */,
+				7E6122D41EAB24420046CE67 /* News-新帖 */,
+				7E6122DA1EAB24420046CE67 /* Other-其它 */,
+				7E6122EE1EAB24420046CE67 /* Publish-添加 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7E6122C21EAB24420046CE67 /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				7E6123031EAB853B0046CE67 /* Controller */,
+				7E6122C61EAB24420046CE67 /* Model */,
+				7E6122C71EAB24420046CE67 /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		7E6122C61EAB24420046CE67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7EE8706D1EB1DA1E00291561 /* EdgeTopics.h */,
+				7EE8706E1EB1DA1E00291561 /* EdgeTopics.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E6122C71EAB24420046CE67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EA4A59B1EB9A6F7008C11FD /* EdgeTopicsCell.h */,
+				7EA4A59C1EB9A6F7008C11FD /* EdgeTopicsCell.m */,
+				7EA4A59D1EB9A6F7008C11FD /* EdgeTopicsCell.xib */,
+				7EA4A5AC1EBB3088008C11FD /* EdgePicture.h */,
+				7EA4A5AD1EBB3088008C11FD /* EdgePicture.m */,
+				7EA4A5AF1EBB30A3008C11FD /* EdgePicture.xib */,
+				7E4A25DA1EBF039A00BA6CAC /* EdgeVoiceView.h */,
+				7E4A25DB1EBF039A00BA6CAC /* EdgeVoiceView.m */,
+				7E4A25DD1EBF043A00BA6CAC /* EdgeVoiceView.xib */,
+				7E4A25DF1EBF298000BA6CAC /* EdgeVedioView.h */,
+				7E4A25E01EBF298000BA6CAC /* EdgeVedioView.m */,
+				7E4A25E21EBF299300BA6CAC /* EdgeVedioView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E6122C81EAB24420046CE67 /* Friends-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				7E6122C91EAB24420046CE67 /* Controller */,
+				7E6122CC1EAB24420046CE67 /* Model */,
+				7E6122CD1EAB24420046CE67 /* View */,
+			);
+			path = "Friends-关注";
+			sourceTree = "<group>";
+		};
+		7E6122C91EAB24420046CE67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E6122CA1EAB24420046CE67 /* EdgeFriendsViewController.h */,
+				7E6122CB1EAB24420046CE67 /* EdgeFriendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E6122CC1EAB24420046CE67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E6122CD1EAB24420046CE67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E6122CE1EAB24420046CE67 /* Me-我的 */ = {
+			isa = PBXGroup;
+			children = (
+				7E6122CF1EAB24420046CE67 /* Controller */,
+				7E6122D21EAB24420046CE67 /* Model */,
+				7E6122D31EAB24420046CE67 /* View */,
+			);
+			path = "Me-我的";
+			sourceTree = "<group>";
+		};
+		7E6122CF1EAB24420046CE67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E6122D01EAB24420046CE67 /* EdgeMeViewController.h */,
+				7E6122D11EAB24420046CE67 /* EdgeMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E6122D21EAB24420046CE67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E6122D31EAB24420046CE67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E6122D41EAB24420046CE67 /* News-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				7E6122D51EAB24420046CE67 /* Controller */,
+				7E6122D81EAB24420046CE67 /* Model */,
+				7E6122D91EAB24420046CE67 /* View */,
+			);
+			path = "News-新帖";
+			sourceTree = "<group>";
+		};
+		7E6122D51EAB24420046CE67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E6122D61EAB24420046CE67 /* EdgeNewViewController.h */,
+				7E6122D71EAB24420046CE67 /* EdgeNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E6122D81EAB24420046CE67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E6122D91EAB24420046CE67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E6122DA1EAB24420046CE67 /* Other-其它 */ = {
+			isa = PBXGroup;
+			children = (
+				7E6122EB1EAB24420046CE67 /* View */,
+				7E6122E41EAB24420046CE67 /* Controller */,
+				7E6122DD1EAB24420046CE67 /* Category */,
+				7E6122DB1EAB24420046CE67 /* AppDelegate.h */,
+				7E6122DC1EAB24420046CE67 /* AppDelegate.m */,
+				7E6122E91EAB24420046CE67 /* main.m */,
+				7E6122EA1EAB24420046CE67 /* PrefixHeader.pch */,
+				7EA4A5A91EBB1219008C11FD /* EdgeConst.h */,
+				7EA4A5AA1EBB1219008C11FD /* EdgeConst.m */,
+			);
+			path = "Other-其它";
+			sourceTree = "<group>";
+		};
+		7E6122DD1EAB24420046CE67 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7E6122DE1EAB24420046CE67 /* UIBarButtonItem+EdgeExention.h */,
+				7E6122DF1EAB24420046CE67 /* UIBarButtonItem+EdgeExention.m */,
+				7E6122E01EAB24420046CE67 /* UIImage+UIImage.h */,
+				7E6122E11EAB24420046CE67 /* UIImage+UIImage.m */,
+				7E6122E21EAB24420046CE67 /* UIView+EdgeExpention.h */,
+				7E6122E31EAB24420046CE67 /* UIView+EdgeExpention.m */,
+				7EA4A5A01EB9D9D0008C11FD /* NSDate+EdgeExtention.h */,
+				7EA4A5A11EB9D9D0008C11FD /* NSDate+EdgeExtention.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7E6122E41EAB24420046CE67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E6122E51EAB24420046CE67 /* EdgeNavigateViewController.h */,
+				7E6122E61EAB24420046CE67 /* EdgeNavigateViewController.m */,
+				7E6122E71EAB24420046CE67 /* EdgeRootTabBarViewController.h */,
+				7E6122E81EAB24420046CE67 /* EdgeRootTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E6122EB1EAB24420046CE67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E6122EC1EAB24420046CE67 /* EdgeTabBar.h */,
+				7E6122ED1EAB24420046CE67 /* EdgeTabBar.m */,
+				7E6122FE1EAB484F0046CE67 /* EdgePushGuildView.h */,
+				7E6122FF1EAB484F0046CE67 /* EdgePushGuildView.m */,
+				7E6123011EAB48650046CE67 /* EdgePushGuildView.xib */,
+				7E4343A91EBCAB2100543887 /* EdgeProcress.h */,
+				7E4343AA1EBCAB2100543887 /* EdgeProcress.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E6122EE1EAB24420046CE67 /* Publish-添加 */ = {
+			isa = PBXGroup;
+			children = (
+				7E6122EF1EAB24420046CE67 /* Controller */,
+				7E6122F01EAB24420046CE67 /* Model */,
+				7E6122F11EAB24420046CE67 /* View */,
+			);
+			path = "Publish-添加";
+			sourceTree = "<group>";
+		};
+		7E6122EF1EAB24420046CE67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E4343AC1EBDCF6600543887 /* EdgePublishViewController.h */,
+				7E4343AD1EBDCF6600543887 /* EdgePublishViewController.m */,
+				7E4343AE1EBDCF6600543887 /* EdgePublishViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E6122F01EAB24420046CE67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E6122F11EAB24420046CE67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E4343B11EBDD60700543887 /* EdgePublishButton.h */,
+				7E4343B21EBDD60700543887 /* EdgePublishButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E6123031EAB853B0046CE67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E6123051EAB853B0046CE67 /* EdgeEssenceViewController.h */,
+				7E6123061EAB853B0046CE67 /* EdgeEssenceViewController.m */,
+				7EA4A5A31EBA0C89008C11FD /* EdgeTopicViewController.h */,
+				7EA4A5A41EBA0C89008C11FD /* EdgeTopicViewController.m */,
+				7EC4AAF81EBC7CC000ECC30E /* EdgeShowPictureController.h */,
+				7EC4AAF91EBC7CC000ECC30E /* EdgeShowPictureController.m */,
+				7EC4AAFA1EBC7CC000ECC30E /* EdgeShowPictureController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4904BE1FB79B9D533B4083B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE597A6CF806CE4E0C9AEC8A /* Pods-百思不得姐.debug.xcconfig */,
+				A3A9B8E380A1C6A52806C12B /* Pods-百思不得姐.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E0D9F541EA8CFBC00CF2841 /* 百思不得姐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E0D9F821EA8CFBF00CF2841 /* Build configuration list for PBXNativeTarget "百思不得姐" */;
+			buildPhases = (
+				54D7E42DEF6432CC4CF67EA7 /* [CP] Check Pods Manifest.lock */,
+				7E0D9F511EA8CFBC00CF2841 /* Sources */,
+				7E0D9F521EA8CFBC00CF2841 /* Frameworks */,
+				7E0D9F531EA8CFBC00CF2841 /* Resources */,
+				3D7C7CE87544A02927D031AB /* [CP] Embed Pods Frameworks */,
+				D1C1C8D92CC7E121344C7062 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百思不得姐";
+			productName = "百思不得姐";
+			productReference = 7E0D9F551EA8CFBE00CF2841 /* 百思不得姐.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E0D9F6D1EA8CFBE00CF2841 /* 百思不得姐Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E0D9F851EA8CFBF00CF2841 /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */;
+			buildPhases = (
+				7E0D9F6A1EA8CFBE00CF2841 /* Sources */,
+				7E0D9F6B1EA8CFBE00CF2841 /* Frameworks */,
+				7E0D9F6C1EA8CFBE00CF2841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E0D9F701EA8CFBF00CF2841 /* PBXTargetDependency */,
+			);
+			name = "百思不得姐Tests";
+			productName = "百思不得姐Tests";
+			productReference = 7E0D9F6E1EA8CFBE00CF2841 /* 百思不得姐Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E0D9F781EA8CFBF00CF2841 /* 百思不得姐UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E0D9F881EA8CFBF00CF2841 /* Build configuration list for PBXNativeTarget "百思不得姐UITests" */;
+			buildPhases = (
+				7E0D9F751EA8CFBF00CF2841 /* Sources */,
+				7E0D9F761EA8CFBF00CF2841 /* Frameworks */,
+				7E0D9F771EA8CFBF00CF2841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E0D9F7B1EA8CFBF00CF2841 /* PBXTargetDependency */,
+			);
+			name = "百思不得姐UITests";
+			productName = "百思不得姐UITests";
+			productReference = 7E0D9F791EA8CFBF00CF2841 /* 百思不得姐UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E0D9F4D1EA8CFBC00CF2841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Edge;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Leon;
+				TargetAttributes = {
+					7E0D9F541EA8CFBC00CF2841 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7JW5QNLXK2;
+						ProvisioningStyle = Automatic;
+					};
+					7E0D9F6D1EA8CFBE00CF2841 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7JW5QNLXK2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E0D9F541EA8CFBC00CF2841;
+					};
+					7E0D9F781EA8CFBF00CF2841 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7JW5QNLXK2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E0D9F541EA8CFBC00CF2841;
+					};
+				};
+			};
+			buildConfigurationList = 7E0D9F501EA8CFBC00CF2841 /* Build configuration list for PBXProject "百思不得姐" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E0D9F4C1EA8CFBC00CF2841;
+			productRefGroup = 7E0D9F561EA8CFBE00CF2841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E0D9F541EA8CFBC00CF2841 /* 百思不得姐 */,
+				7E0D9F6D1EA8CFBE00CF2841 /* 百思不得姐Tests */,
+				7E0D9F781EA8CFBF00CF2841 /* 百思不得姐UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E0D9F531EA8CFBC00CF2841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0D9F651EA8CFBE00CF2841 /* Assets.xcassets in Resources */,
+				7E4A25E31EBF299300BA6CAC /* EdgeVedioView.xib in Resources */,
+				7EA4A5B01EBB30A3008C11FD /* EdgePicture.xib in Resources */,
+				7EC4AAFC1EBC7CC000ECC30E /* EdgeShowPictureController.xib in Resources */,
+				7EA4A59F1EB9A6F7008C11FD /* EdgeTopicsCell.xib in Resources */,
+				7E4A25DE1EBF043A00BA6CAC /* EdgeVoiceView.xib in Resources */,
+				7E6123021EAB48650046CE67 /* EdgePushGuildView.xib in Resources */,
+				7E4343B01EBDCF6600543887 /* EdgePublishViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0D9F6C1EA8CFBE00CF2841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0D9F771EA8CFBF00CF2841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D7C7CE87544A02927D031AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54D7E42DEF6432CC4CF67EA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1C1C8D92CC7E121344C7062 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E0D9F511EA8CFBC00CF2841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4A25DC1EBF039A00BA6CAC /* EdgeVoiceView.m in Sources */,
+				7E6122F51EAB24420046CE67 /* EdgeNewViewController.m in Sources */,
+				7EA4A5AE1EBB3088008C11FD /* EdgePicture.m in Sources */,
+				7E6123001EAB484F0046CE67 /* EdgePushGuildView.m in Sources */,
+				7E4343AF1EBDCF6600543887 /* EdgePublishViewController.m in Sources */,
+				7E61230B1EAB853B0046CE67 /* EdgeEssenceViewController.m in Sources */,
+				7E6122F31EAB24420046CE67 /* EdgeFriendsViewController.m in Sources */,
+				7EA4A59E1EB9A6F7008C11FD /* EdgeTopicsCell.m in Sources */,
+				7E6122FB1EAB24420046CE67 /* EdgeRootTabBarViewController.m in Sources */,
+				7EA4A5AB1EBB1219008C11FD /* EdgeConst.m in Sources */,
+				7E4A25E11EBF298000BA6CAC /* EdgeVedioView.m in Sources */,
+				7EA4A5A21EB9D9D0008C11FD /* NSDate+EdgeExtention.m in Sources */,
+				7E6122FD1EAB24420046CE67 /* EdgeTabBar.m in Sources */,
+				7E6122F71EAB24420046CE67 /* UIBarButtonItem+EdgeExention.m in Sources */,
+				7E6122F91EAB24420046CE67 /* UIView+EdgeExpention.m in Sources */,
+				7E6122F41EAB24420046CE67 /* EdgeMeViewController.m in Sources */,
+				7E6122F81EAB24420046CE67 /* UIImage+UIImage.m in Sources */,
+				7E6122FA1EAB24420046CE67 /* EdgeNavigateViewController.m in Sources */,
+				7EA4A5A51EBA0C89008C11FD /* EdgeTopicViewController.m in Sources */,
+				7EC4AAFB1EBC7CC000ECC30E /* EdgeShowPictureController.m in Sources */,
+				7E4343AB1EBCAB2100543887 /* EdgeProcress.m in Sources */,
+				7EE8706F1EB1DA1E00291561 /* EdgeTopics.m in Sources */,
+				7E6122FC1EAB24420046CE67 /* main.m in Sources */,
+				7E6122F61EAB24420046CE67 /* AppDelegate.m in Sources */,
+				7E4343B31EBDD60700543887 /* EdgePublishButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0D9F6A1EA8CFBE00CF2841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0D9F731EA8CFBF00CF2841 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0D9F751EA8CFBF00CF2841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0D9F7E1EA8CFBF00CF2841 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E0D9F701EA8CFBF00CF2841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E0D9F541EA8CFBC00CF2841 /* 百思不得姐 */;
+			targetProxy = 7E0D9F6F1EA8CFBF00CF2841 /* PBXContainerItemProxy */;
+		};
+		7E0D9F7B1EA8CFBF00CF2841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E0D9F541EA8CFBC00CF2841 /* 百思不得姐 */;
+			targetProxy = 7E0D9F7A1EA8CFBF00CF2841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E0D9F801EA8CFBF00CF2841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other-其它/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E0D9F811EA8CFBF00CF2841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other-其它/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E0D9F831EA8CFBF00CF2841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE597A6CF806CE4E0C9AEC8A /* Pods-百思不得姐.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7JW5QNLXK2;
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UEdge.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E0D9F841EA8CFBF00CF2841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A9B8E380A1C6A52806C12B /* Pods-百思不得姐.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7JW5QNLXK2;
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UEdge.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E0D9F861EA8CFBF00CF2841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7JW5QNLXK2;
+				INFOPLIST_FILE = "百思不得姐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UEdge.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百思不得姐.app/百思不得姐";
+			};
+			name = Debug;
+		};
+		7E0D9F871EA8CFBF00CF2841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7JW5QNLXK2;
+				INFOPLIST_FILE = "百思不得姐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UEdge.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百思不得姐.app/百思不得姐";
+			};
+			name = Release;
+		};
+		7E0D9F891EA8CFBF00CF2841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7JW5QNLXK2;
+				INFOPLIST_FILE = "百思不得姐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UEdge.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百思不得姐";
+			};
+			name = Debug;
+		};
+		7E0D9F8A1EA8CFBF00CF2841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7JW5QNLXK2;
+				INFOPLIST_FILE = "百思不得姐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UEdge.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百思不得姐";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E0D9F501EA8CFBC00CF2841 /* Build configuration list for PBXProject "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0D9F801EA8CFBF00CF2841 /* Debug */,
+				7E0D9F811EA8CFBF00CF2841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E0D9F821EA8CFBF00CF2841 /* Build configuration list for PBXNativeTarget "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0D9F831EA8CFBF00CF2841 /* Debug */,
+				7E0D9F841EA8CFBF00CF2841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E0D9F851EA8CFBF00CF2841 /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0D9F861EA8CFBF00CF2841 /* Debug */,
+				7E0D9F871EA8CFBF00CF2841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E0D9F881EA8CFBF00CF2841 /* Build configuration list for PBXNativeTarget "百思不得姐UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0D9F891EA8CFBF00CF2841 /* Debug */,
+				7E0D9F8A1EA8CFBF00CF2841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E0D9F4D1EA8CFBC00CF2841 /* Project object */;
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EdgePublishViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shareBottomBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Abp-eO-mvR">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMv-Pz-i5C">
+                    <rect key="frame" x="50" y="597" width="275" height="40"/>
+                    <state key="normal" backgroundImage="shareButtonCancel"/>
+                    <state key="highlighted" backgroundImage="shareButtonCancelClick"/>
+                    <connections>
+                        <action selector="cancleButton:" destination="-1" eventType="touchUpInside" id="HQb-CN-DJK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Abp-eO-mvR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2eT-b1-LxM"/>
+                <constraint firstAttribute="trailing" secondItem="fMv-Pz-i5C" secondAttribute="trailing" constant="50" id="BNA-kL-XHi"/>
+                <constraint firstItem="Abp-eO-mvR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="EHp-7F-6Kp"/>
+                <constraint firstAttribute="bottom" secondItem="Abp-eO-mvR" secondAttribute="bottom" id="HHh-SF-VEf"/>
+                <constraint firstAttribute="bottom" secondItem="fMv-Pz-i5C" secondAttribute="bottom" constant="30" id="bu5-Oq-d5U"/>
+                <constraint firstItem="fMv-Pz-i5C" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="dZx-D6-p0B"/>
+                <constraint firstItem="fMv-Pz-i5C" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jTI-Z1-7Hl"/>
+                <constraint firstAttribute="trailing" secondItem="Abp-eO-mvR" secondAttribute="trailing" id="qd7-bH-15X"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="shareBottomBackground" width="320" height="343"/>
+        <image name="shareButtonCancel" width="289" height="40"/>
+        <image name="shareButtonCancelClick" width="289" height="40"/>
+    </resources>
+</document>

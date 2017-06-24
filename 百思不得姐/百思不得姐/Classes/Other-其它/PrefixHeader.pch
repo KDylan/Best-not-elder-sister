@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  百思不得姐
+//
+//  Created by Edge on 2017/4/22.
+//  Copyright © 2017年 Leon. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define ScreenHeigth [UIScreen mainScreen].bounds.size.height
+
+#define EdgeBackGroundColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0];
+
+#define EdgeGloupColor EdgeBackGroundColor(223,223,223);
+
+
+#import "UIView+EdgeExpention.h"
+#import "UIImage+UIImage.h"
+#import "UIBarButtonItem+EdgeExention.h"
+#import "EdgeConst.h"
+#import <UIImageView+WebCache.h>
+#import <DALabeledCircularProgressView.h>
+#import <SVProgressHUD.h>
+typedef NS_ENUM(NSInteger,EdgeTopicType) {
+    EdgeTopicAll = 1,
+    EdgeTopicPicture = 10,
+    EdgeTopicWord = 29,
+    EdgeTopicVoice = 31,
+    EdgeTopicVedio = 41
+};
+
+#endif /* PrefixHeader_pch */
